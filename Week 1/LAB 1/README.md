@@ -6,6 +6,13 @@ Happy Learning.
 
 
 1. Launch Azure Cloud Shell
+answer:
+a. https://portal.azure.com/
+b.click cloud shell icon
+c.it will actually ask for payment details but i already did it before
+d i Launched Azure Cloud Shell lauched
+
+
 2. Create a resource group
 3. Create virtual machine
 4. Open port 80 for web traffic

@@ -1,0 +1,4 @@
+1. https://portal.azure.com/
+2.click cloud shell icon
+3.it will actually ask for payment details but i already did it before
+4  i did Launch Azure Cloud Shell lauched
