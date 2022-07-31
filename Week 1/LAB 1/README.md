@@ -14,11 +14,31 @@ d i Launched Azure Cloud Shell lauched
 
 
 2. Create a resource group
+created a resource group with the command  az group create --name myResourceGroup --location eastus
 3. Create virtual machine
+created virtual machine  with command   
+ az vm create \
+  --resource-group myResourceGroup \
+  --name myVM \
+  --image Debian \
+  --admin-username azureuser \
+  --generate-ssh-keys
+  note: my  "publicIpAddress": "20.228.195.169",
 4. Open port 80 for web traffic
+i did with this
+az vm open-port --port 80 --resource-group myResourceGroup --name myVM
+
 5. Connect to virtual machine
+i connected the virual machine
 6. Install web server
+i did with the command 
+az vm run-command invoke \
+   -g myResourceGroup \
+   -n myVM \
+   --command-id RunShellScript \
+   --scripts "sudo apt-get update && sudo apt-get install -y nginx"
 7. View the web server in action
+i viewed my web server successfully using my public ip 20.228.195.169
 
 
 
