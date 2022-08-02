@@ -17,11 +17,11 @@ az vm create \
 i connected to vm succesfully      with command 
 ssh azureuser@52.168.142.199
 4. Understand VM images
-i understood vm images withthe following command
+i understood vm images with the following command
 az vm image list --output table
 az vm image list --output table
 5. Understand VM sizes
-i understand with the following command
+i understand with following command
 az vm list-sizes --location eastus --output table
 6. VM power states
 i did with the following command
@@ -32,11 +32,3 @@ az vm get-instance-view \
 7. Management tasks
 i did  with following command
 az vm list-ip-addresses --resource-group myResourceGroupVM --name myVM --output table
-
-Notes:
-Quickstart: Create a Linux VM
-
-https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-manage-vm
-Quickstart for Bash in Azure Cloud Shell
-
-https://docs.microsoft.com/en-us/azure/cloud-shell/quickstart
