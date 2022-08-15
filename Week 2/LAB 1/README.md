@@ -13,7 +13,7 @@ Done
 done installed httpd and started it also
 6. View the web server in action
 done
-i connect to my webser and is working perfectly
+i connect to my webserver and is working perfectly
 
 
 
