@@ -2,11 +2,18 @@
 
 
 1. Launch AWS Cloud Shell
+done
 2. Create virtual machine
+done
 3. Open port 80 for web traffic
+Done
 4. Connect to virtual machine
+Done
 5. Install web server
+done installed httpd and started it also
 6. View the web server in action
+done
+i connect to my webser and is working perfectly
 
 
 
