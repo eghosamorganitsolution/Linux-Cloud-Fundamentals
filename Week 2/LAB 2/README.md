@@ -2,11 +2,17 @@
 
 
 1. Create virtual machine
+done
 2. Connect to VM
+done
 3. Understand VM images
+done
 4. Understand VM sizes
+done
 5. VM power states
+done
 6. Management tasks
+Done
 
 
 
