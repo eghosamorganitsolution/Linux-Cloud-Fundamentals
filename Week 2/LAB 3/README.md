@@ -2,10 +2,25 @@
 
 
 1. Create a Linux VM
+done i added boostrap script
 2. Install the Apache Web Server
+done
+The Boostrap script  added is:
+#!/bin/bash
+sudo -i
+apt-get update
+apt-get install apache2
+systemctl start apache2
+
 3. Start the service status via command line
+Done 
+it was started in the boostrap script above
 4. Investigate the service status via command line
+Done
+systemctl status  apache2
+
 5. Stop the service
+Done
 
 
 Challenge: Create a boostrapping script that will install and start this service on new EC2 VMs
